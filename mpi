@@ -1,0 +1,189 @@
+mpi
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>  // Include stdlib.h for malloc and free
+#include <math.h>
+#include <stdbool.h>
+#include <mpi.h>
+
+// Define matrix-vector multiplication function with transpose
+void matrix_vector_multiply_transpose(double X[][3], double X_T[][5], double w[], double res[], int m, int n) {
+    // Calculate the transpose of matrix X (X_T)
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            X_T[i][j] = X[j][i];
+        }
+    }
+
+    // Initialize the result vector res to 0
+    for (int i = 0; i < m; i++) {
+        res[i] = 0;
+    }
+
+    // Parallelized matrix-vector multiplication with transpose (X_T)
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            res[i] += X_T[j][i] * w[j];
+        }
+    }
+}
+
+// Define element-wise vector subtraction function
+void subtract_vectors_parallel(double vec1[], double res2[], int m) {
+    for (int i = 0; i < m; i++) {
+        res2[i] -= vec1[i];
+    }
+}
+
+// Calculate the norm of a vector in parallel
+double calculate_vector_norm_parallel(double v[], int n) {
+    double v_norm = 0.0;
+    for (int i = 0; i < n; i++) {
+        v_norm += v[i] * v[i];
+    }
+    v_norm = sqrt(v_norm);
+    return v_norm;
+}
+
+int main(int argc, char *argv[]) {
+    MPI_Init(&argc, &argv);
+
+    int rank, size;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+double start_time, end_time;
+// Record the start time
+start_time = MPI_Wtime();
+
+    double alpha, epsilon;
+    int n = 3; // Number of features (adjust based on your data)
+    int m = 5; // Number of data points (adjust based on your data)
+
+    // Load and preprocess your dataset (X and Y)
+    if (rank == 0) {
+        printf("Loading and preprocessing dataset...\n");
+    }
+
+    // Initialize weights and hyperparameters
+    if (rank == 0) {
+        printf("Initializing weights and hyperparameters...\n");
+    }
+
+    double w[3];  // Initial weights
+
+    // Define X and Y for all processes
+    double X[5][3] = {
+        {1.0, 2.0, 3.0},
+        {4.0, 5.0, 6.0},
+        {7.0, 8.0, 9.0},
+        {10.0, 11.0, 12.0},
+        {13.0, 14.0, 15.0}
+    };
+
+    double Y[5] = {0.0, 1.0, 0.0, 1.0, 1.0};
+
+    alpha = 0.05;  // Learning rate
+    epsilon = 0.001; // Tolerance
+    for (int i = 0; i < n; i++) {
+        w[i] = 0.1;  // Initialize weights
+    }
+
+    // Broadcast hyperparameters to all processes
+    MPI_Bcast(&alpha, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Bcast(&epsilon, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Bcast(w, n, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+    double epsilon_sq = epsilon * epsilon;
+    int iteration = 0;
+    int max_iterations = 1000;
+
+    // Create arrays for X_T, res, gradient_update
+    double X_T[3][5]; // Transpose of X (adjust dimensions)
+    double res[5]; // Result vector (adjust dimensions)
+    double gradient_update[5]; // Gradient update vector (adjust dimensions)
+
+    while (true) {
+        // Calculate the transpose of matrix X (X_T)
+        matrix_vector_multiply_transpose(X, X_T, w, res, m, n);
+
+        // Synchronize before proceeding
+        MPI_Barrier(MPI_COMM_WORLD);
+
+        // Broadcast res (result vector) to all processes
+        MPI_Bcast(res, m, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+        // Calculate sigmoid function in parallel
+        for (int i = rank; i < m; i += size) {
+            res[i] = 1.0 / (1.0 + exp(-res[i]));
+        }
+
+        // Gather the updated res vector to the root process
+        double gathered_res[5]; // Receive buffer
+        MPI_Gather(res + rank, m / size, MPI_DOUBLE, gathered_res, m / size, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+        // Subtract Y from gathered_res in parallel
+        subtract_vectors_parallel(Y, gathered_res, m);
+
+        // Calculate gradient_update (result of matrix-vector multiplication) in parallel
+        for (int i = rank; i < m; i += size) {
+            matrix_vector_multiply_transpose(X, X_T, gathered_res, gradient_update, m, n);
+        }
+
+        // Reduce gradient_update across all processes using MPI_Reduce
+        double gradient[n];
+        MPI_Reduce(gradient_update, gradient, n, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+
+        // Synchronize before proceeding
+        MPI_Barrier(MPI_COMM_WORLD);
+
+        // Subtract (alpha * gradient) from w in parallel
+        for (int i = rank; i < n; i += size) {
+            w[i] -= alpha * gradient[i];
+        }
+
+        // Calculate the gradient norm in parallel
+        double grad_norm = calculate_vector_norm_parallel(gradient, n);
+
+        // Print the updated weight vector w* after each iteration
+        if (rank == 0) {
+            printf("Iteration %d - Updated Weight Vector (w∗):\n", iteration);
+            for (int i = 0; i < n; i++) {
+                printf("%lf ", w[i]);
+            }
+            printf("\n");
+        }
+
+        // Check for the termination condition based on the gradient norm
+        if (grad_norm * grad_norm <= epsilon_sq) {
+            // Termination condition met, break out of the loop
+            break;
+        }
+
+        // Optional: Check for a maximum number of iterations
+        if (iteration >= max_iterations) {
+            // Maximum iterations reached, exit the loop
+            break;
+        }
+
+        iteration++;
+    }
+
+// Record the end time
+end_time = MPI_Wtime();
+
+// Calculate the total elapsed time
+double elapsed_time = end_time - start_time;
+
+// Print the elapsed time
+if (rank == 0) {
+    printf("Total Elapsed Time: %.2f seconds\n", elapsed_time);
+}
+
+    MPI_Finalize();
+
+    return 0;
+}
