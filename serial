@@ -1,0 +1,116 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <time.h>
+
+void matrix_vector_multiply_transpose(double X[][3], double X_T[][5], double w[], double res[], int m, int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            X_T[i][j] = X[j][i];
+        }
+    }
+
+    for (int i = 0; i < m; i++) {
+        res[i] = 0;
+    }
+
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            res[i] += X_T[j][i] * w[j];
+        }
+    }
+}
+
+void subtract_vectors(double vec1[], double res2[], int m) {
+    for (int i = 0; i < m; i++) {
+        res2[i] -= vec1[i];
+    }
+}
+double calculate_vector_norm(double v[], int n) {
+    double v_norm = 0.0;
+    for (int i = 0; i < n; i++) {
+        v_norm += v[i] * v[i];
+    }
+    v_norm = sqrt(v_norm);
+    return v_norm;
+}
+int main() {
+
+         clock_t start_time, end_time;
+    start_time = clock(); // Record the start time
+    double alpha, epsilon;
+    int n = 3; // Number of features (adjust based on your data)
+    int m = 5; // Number of data points (adjust based on your data)
+
+    printf("Loading and preprocessing dataset...\n");
+
+    printf("Initializing weights and hyperparameters...\n");
+
+    double w[3];  // Initial weights
+
+    double X[5][3] = {
+        {1.0, 2.0, 3.0},
+        {4.0, 5.0, 6.0},
+        {7.0, 8.0, 9.0},
+        {10.0, 11.0, 12.0},
+        {13.0, 14.0, 15.0}
+    };
+
+    double Y[5] = {0.0, 1.0, 0.0, 1.0, 1.0};
+
+    alpha = 0.05;  // Learning rate
+    epsilon = 0.001; // Tolerance
+    for (int i = 0; i < n; i++) {
+        w[i] = 0.1;  // Initialize weights
+    }
+         double epsilon_sq = epsilon * epsilon;
+    int iteration = 0;
+    int max_iterations = 1000;
+
+    double X_T[3][5];
+    double res[5];
+    double gradient_update[5];
+
+    while (1) {
+        matrix_vector_multiply_transpose(X, X_T, w, res, m, n);
+
+        for (int i = 0; i < m; i++) {
+            res[i] = 1.0 / (1.0 + exp(-res[i]));
+        }
+
+        subtract_vectors(Y, res, m);
+
+        matrix_vector_multiply_transpose(X, X_T, res, gradient_update, m, n);
+                double gradient[n];
+        for (int i = 0; i < n; i++) {
+            gradient[i] = gradient_update[i];
+        }
+
+        for (int i = 0; i < n; i++) {
+            w[i] -= alpha * gradient[i];
+        }
+
+        double grad_norm = calculate_vector_norm(gradient, n);
+
+        printf("Iteration %d - Updated Weight Vector (w*):\n", iteration);
+        for (int i = 0; i < n; i++) {
+            printf("%lf ", w[i]);
+        }
+        printf("\n");
+
+        if (grad_norm * grad_norm <= epsilon_sq) {
+            break;
+        }
+
+        if (iteration >= max_iterations) {
+            break;
+        }
+                  iteration++;
+    }
+        end_time = clock(); // Record the end time
+
+    double elapsed_time = (double)(end_time - start_time) / CLOCKS_PER_SEC; // Compute the elapsed time
+
+    printf("Elapsed time: %lf seconds\n", elapsed_time); // Print the elapsed time
+    return 0;
+}
