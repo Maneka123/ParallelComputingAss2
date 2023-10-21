@@ -1,0 +1,83 @@
+
+########################################################################
+#      Date:           Fri 20 Oct 2023 08:05:55 PM PDT
+#    Job ID:           2396141.v-qsvr-1.aidevcloud
+#      User:           u200128
+# Resources:           cput=75:00:00,neednodes=1:ppn=2,nodes=1:ppn=2,walltime=00:03:00
+########################################################################
+
+s001-n064
+s001-n064
+Running MPI program mJob on 10 processes
+Started at Fri 20 Oct 2023 08:06:01 PM PDT
+--------------------------------------------------------------------------------
+Loading and preprocessing dataset...
+Initializing weights and hyperparameters...
+Iteration 0 - Updated Weight Vector (w∗):
+0.600000 0.100000 0.100000 
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 3050064 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 3050065 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 3050066 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 3050067 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 3050068 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 3050069 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 3050070 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 7 PID 3050071 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 8 PID 3050072 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 9 PID 3050073 RUNNING AT s001-n064
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+########################################################################
+# End of output for job 2396141.v-qsvr-1.aidevcloud
+# Date: Fri 20 Oct 2023 08:09:45 PM PDT
+########################################################################
+

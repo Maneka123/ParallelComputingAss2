@@ -1,0 +1,47 @@
+
+########################################################################
+#      Date:           Fri 20 Oct 2023 04:02:19 AM PDT
+#    Job ID:           2395733.v-qsvr-1.aidevcloud
+#      User:           u200128
+# Resources:           cput=75:00:00,neednodes=1:ppn=2,nodes=1:ppn=2,walltime=00:02:00
+########################################################################
+
+s001-n021
+s001-n021
+Running MPI program mJob on 4 processes
+Started at Fri 20 Oct 2023 04:02:29 AM PDT
+--------------------------------------------------------------------------------
+Loading and preprocessing dataset...
+Initializing weights and hyperparameters...
+Iteration 0 - Updated Weight Vector (w∗):
+0.248436 0.100000 0.100000 
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 3184231 RUNNING AT s001-n021
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 3184232 RUNNING AT s001-n021
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 3184233 RUNNING AT s001-n021
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 3184234 RUNNING AT s001-n021
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+########################################################################
+# End of output for job 2395733.v-qsvr-1.aidevcloud
+# Date: Fri 20 Oct 2023 04:05:01 AM PDT
+########################################################################
+

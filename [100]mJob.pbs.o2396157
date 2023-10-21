@@ -1,0 +1,723 @@
+
+########################################################################
+#      Date:           Fri 20 Oct 2023 08:25:18 PM PDT
+#    Job ID:           2396157.v-qsvr-1.aidevcloud
+#      User:           u200128
+# Resources:           cput=75:00:00,neednodes=1:ppn=2,nodes=1:ppn=2,walltime=00:03:00
+########################################################################
+
+s001-n068
+s001-n068
+Running MPI program mJob on 100 processes
+Started at Fri 20 Oct 2023 08:25:24 PM PDT
+--------------------------------------------------------------------------------
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+MPI startup(): I_MPI_WAITMODE is unsupported for shm:ofi fabrics please specify I_MPI_FABRICS=ofi or I_MPI_FABRICS=shm
+Loading and preprocessing dataset...
+Initializing weights and hyperparameters...
+Iteration 0 - Updated Weight Vector (w∗):
+0.600000 0.100000 0.100000 
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 1984808 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 1984809 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 1984810 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 1984811 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 1984812 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 1984813 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 1984814 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 7 PID 1984815 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 8 PID 1984816 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 9 PID 1984817 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 10 PID 1984818 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 11 PID 1984819 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 12 PID 1984820 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 13 PID 1984821 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 14 PID 1984822 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 15 PID 1984823 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 16 PID 1984824 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 17 PID 1984825 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 18 PID 1984826 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 19 PID 1984827 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 20 PID 1984828 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 21 PID 1984829 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 22 PID 1984830 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 23 PID 1984831 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 24 PID 1984832 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 25 PID 1984833 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 26 PID 1984834 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 27 PID 1984835 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 28 PID 1984836 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 29 PID 1984837 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 30 PID 1984838 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 31 PID 1984839 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 32 PID 1984840 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 33 PID 1984841 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 34 PID 1984842 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 35 PID 1984843 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 36 PID 1984844 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 37 PID 1984845 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 38 PID 1984846 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 39 PID 1984847 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 40 PID 1984848 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 41 PID 1984849 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 42 PID 1984850 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 43 PID 1984851 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 44 PID 1984852 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 45 PID 1984853 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 46 PID 1984854 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 47 PID 1984855 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 48 PID 1984856 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 49 PID 1984857 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 50 PID 1984858 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 51 PID 1984859 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 52 PID 1984860 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 53 PID 1984861 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 54 PID 1984862 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 55 PID 1984863 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 56 PID 1984864 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 57 PID 1984865 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 58 PID 1984866 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 59 PID 1984867 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 60 PID 1984868 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 61 PID 1984869 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 62 PID 1984870 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 63 PID 1984871 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 64 PID 1984872 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 65 PID 1984873 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 66 PID 1984874 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 67 PID 1984875 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 68 PID 1984876 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 69 PID 1984877 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 70 PID 1984878 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 71 PID 1984879 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 72 PID 1984880 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 73 PID 1984881 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 74 PID 1984882 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 75 PID 1984883 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 76 PID 1984884 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 77 PID 1984885 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 78 PID 1984886 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 79 PID 1984887 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 80 PID 1984888 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 81 PID 1984889 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 82 PID 1984890 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 83 PID 1984891 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 84 PID 1984892 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 85 PID 1984893 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 86 PID 1984894 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 87 PID 1984895 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 88 PID 1984896 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 89 PID 1984897 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 90 PID 1984898 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 91 PID 1984899 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 92 PID 1984900 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 93 PID 1984901 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 94 PID 1984902 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 95 PID 1984903 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 96 PID 1984904 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 97 PID 1984905 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 98 PID 1984906 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 99 PID 1984907 RUNNING AT s001-n068
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+########################################################################
+# End of output for job 2396157.v-qsvr-1.aidevcloud
+# Date: Fri 20 Oct 2023 08:28:48 PM PDT
+########################################################################
+
